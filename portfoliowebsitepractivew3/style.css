@@ -1,0 +1,312 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+
+body,html{
+    height: 100%;
+    color: #777;
+  line-height: 1.8;
+  background-color:#FFFFFE;
+  font-size: 15px
+}
+
+.bgimg-1, .bgimg-2, .bgimg-3 {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .logo-button{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color:#fff;
+    font-size: 24px;
+    letter-spacing: 8px;
+  }
+
+  .bgimg-1{
+    height: 100%;
+    background-image: url("heroscreen\ wallpaper\ 050624\ \(8\).png");
+  }
+
+.about-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: auto;
+  max-width: 60%;
+}
+.top-bar{
+  width: 100%;
+  position:fixed;
+  z-index: 1;
+  min-height: 2em;
+  font-size: 18px;
+  padding-top: 8px;
+}
+
+.navigation a{
+  text-decoration: none;
+  color: lightgray;
+  text-align: center;
+  padding: 8px 12px;
+}
+
+.navigation a:hover{
+  color: black;
+  
+}
+.row{
+  display: flex;
+  gap: 35px;
+  padding: 20px;
+
+}
+.title{
+  font-size: 24px;
+  text-align: center;
+  font-family: "Lato", sans-serif;
+}
+
+.ls{
+  letter-spacing: 10px;
+}
+.bar1{
+  background-color:#f0f1f0;
+  text-align: center;
+  color: white;
+  height: 30px;
+  font-size: 16px;
+
+}
+.sbar1{
+  background-color: #606160;
+  width: 90%;
+  height: 30px;
+}
+.sbar2{
+  background-color: #606160;
+  width: 85%;
+  height: 30px;
+
+}
+.sbar3{
+  background-color: #606160;
+  width: 75%;
+  height: 30px;
+
+}
+.divider{
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #606160;
+  height: 100px;
+  align-items: center;
+  color: white;
+  text-align: center;
+  padding: 70px;
+}
+.div-txt{
+  font-size: 24px;
+}
+
+.bgimg-2{
+  height: 30%;
+  background-image: url("Ghibli\ Fantasy\ Wallpaper\ to\ Enhance\ Your\ Screen\ -\ 4460x2160.jpg");
+  opacity: 0.6;
+  position: relative;
+  
+}
+.bgimg-3{
+  height: 30%;
+  background-image: url("https://images.pexels.com/photos/6804460/pexels-photo-6804460.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+  opacity: 0.6;
+  position: relative;
+}
+
+.bg-txt-box{
+  color: white;
+  letter-spacing: 12px;
+  text-align: center;
+  font-size: 40px;
+  justify-content: center;
+  align-content :center;
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.hatguy{
+  opacity: 0.6;
+}
+.hatguy:hover{
+  opacity: 1;
+}
+.mywork{
+  max-width: 60%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: auto;
+  text-align: center;
+}
+.img-row{
+  display: grid;
+  gap: 15px;
+  grid-template-columns: auto auto auto auto;
+  grid-template-rows: auto auto;
+  
+}
+.img:hover{
+  opacity: 0.3;
+  cursor: pointer;
+
+}
+.more-button{
+  background-color: #f0f1f0;
+  border-width:0;
+  padding: 20px;
+  margin-top: 64px;
+  color: black;
+}
+.more-button:hover{
+  background-color: lightgray;
+  cursor: pointer;
+}
+
+.last-container{
+  max-width:90%;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  margin-top: 16px; 
+  margin-bottom: 16px;
+  display: flex;
+  justify-content: center;
+}
+.mapimg-container img{
+  object-fit: cover;
+  border-radius: 5px;
+
+}
+
+.mapimg-container{
+  padding: 0.01em 16px;
+  flex: 1;
+  border-radius: 5px;
+  overflow: hidden;
+  max-width:300px;
+  max-height: 150px;
+  
+}
+.mywork2{
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0.01em 16px;
+  max-width: 60%;
+}
+.center{
+  text-align: center;
+}
+.formelement{
+  display: flex;
+  padding: 0 8px;
+
+}
+.address{
+  margin-bottom: 16px;
+  font-size: 18px;
+}
+.input{
+  padding: 8px;
+  display: block;
+  border: none;
+  width: 100%;
+}
+
+.form-design input{
+  padding: 12px;
+
+}
+.other{
+  border: 1px solid #ccc;
+  padding: 8px;
+  display: block;
+  width: 100%;
+  box-sizing: inherit;
+}
+button{
+  display: inline-block;
+  margin: 15px 0;
+  padding: 8px 16px;
+  color: white;
+  background-color: black;
+  font-size: 16px;
+  border: 0;
+}
+.right{
+  float: right;
+}
+button:hover{
+  background-color: lightgray;
+  color: black;
+}
+footer{
+  background-color:#656665;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 20px;
+}
+.f{
+  color: white;
+}
+.f:hover{
+  color: green;
+}
+.top-button{
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 18px;
+  padding-right: 18px;
+  background-color: white;
+  text-decoration: none;
+  color: #656665;
+  margin: 10px;
+  font-size: 16px;
+
+}
+.top-button:hover{
+  background-color: lightgray;
+}
+footer:hover{
+  background-color: black;
+}
+
+.fa-magnifying-glass{
+  color:lightgray;
+}
+
+.search{
+  float: right;
+}
+.apps{
+  font-size: 20px ;
+}
+.apps:hover{
+  opacity:0.5;
+}
